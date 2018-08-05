@@ -39,7 +39,7 @@ Ab Hold: 1 set of 2 minutes
 Heel Touch Crunch: 1 set of 50 reps
 EOF
 
-workout_templates = {
+WORKOUT_TEMPLATES = {
 'upper' => {
   name: "💪 Upper-body Workout 🔫",
   description: UPPER_BODY_DESCRIPTION,
