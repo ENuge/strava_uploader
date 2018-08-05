@@ -10,6 +10,7 @@ A CLI for uploading Strava activities. Optimized for speed-to-post based on your
     * Follow the steps in here, use the access token you get: `https://yizeng.me/2017/01/11/get-a-strava-api-access-token-with-write-permission/`.
     * Put it in `.secret/api_keys.rb`.
 2. Run `./strava.rb`. You may need to install a handful of gems.
+3. Optional: alias it in your `~/.bash_profile` or equivalent. Mine looks like: `alias strava="/Users/Eoin/Documents/strava_uploader/strava.rb"`.
 
 \* In an ideal world, I'd host a server so you could do proper OAuth and this would be so much nicer. Sorry 🤔.
 
