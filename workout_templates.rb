@@ -16,10 +16,16 @@ Bicep Pulldown (Overhead): 3 sets of 10 reps at 135->150->150 lbs
 Tricep Pushdown: 3 sets of 10 reps at 50->60->60 lbs
 EOF
 
-# TODO: Fill out the rest of my PT+leg-strengthening stuff.
 LOWER_BODY_DESCRIPTION = <<~EOF
-Pistol Squats: 3 sets of 10 reps at 25->30->35
-...
+Pistol Squat: 3 sets of 10 reps at 25->30->35
+Clamshell Trio: 3 sets of 10 reps at body weight
+Leg Raise: 3 sets of 10 reps at body weight
+Adductor Leg Raise: 3 sets of 10 reps at body weight
+Abductor Leg Raise: 3 sets of 10 reps at body weight
+Single Leg Bulgarian Squat: 3 sets of 10 reps at 12.5 lbs
+Leg Press: 3 sets of xxx lbs
+Seated Leg Curl: 3 sets of xxx lbs
+Hamstring Curl Exercise Ball: 3 sets of xxx lbs
 EOF
 
 # TODO: Core especially should be able to specify time-based, not rep-based args.
@@ -40,21 +46,20 @@ Heel Touch Crunch: 1 set of 50 reps
 EOF
 
 WORKOUT_TEMPLATES = {
-'upper' => {
-  name: "💪 Upper-body Workout 🔫",
-  description: UPPER_BODY_DESCRIPTION,
-},
-'lower' => {
-  name: "⚡️ Leg Workout ⚡️",
-  description: LOWER_BODY_DESCRIPTION, 
-},
-'core' => {
-  name: "🦁 Core Workout 🦍",
-  description: CORE_DESCRIPTION,
-},
-'custom' => {
-  name: "Custom Workout",
-  description: '',
-}
-# One could imagine a future where I add, for instance, swimming.
+  'upper' => {
+    name: "💪 Upper-body Workout 🔫",
+    description: UPPER_BODY_DESCRIPTION,
+  },
+  'lower' => {
+    name: "⚡️ Leg Workout ⚡️",
+    description: LOWER_BODY_DESCRIPTION, 
+  },
+  'core' => {
+    name: "🦁 Core Workout 🦍",
+    description: CORE_DESCRIPTION,
+  },
+  'custom' => {
+    name: "Custom Workout",
+    description: '',
+  },
 }.freeze
