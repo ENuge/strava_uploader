@@ -1,7 +1,7 @@
 # strava_uploader
-A CLI for uploading Strava activities. Optimized for speed-to-post based on your routines.
+A CLI for uploading Strava activities. Optimized for speed-to-post based on your routines. Click to watch it in action:
 
-<a href="https://asciinema.org/a/JXQtFHhQaY8NzxhvNEbKnZ4nv"><img src="https://asciinema.org/a/JXQtFHhQaY8NzxhvNEbKnZ4nv.png" width="400" height="500"/></a>
+<a href="https://asciinema.org/a/JXQtFHhQaY8NzxhvNEbKnZ4nv?autoplay=1"><img src="https://asciinema.org/a/JXQtFHhQaY8NzxhvNEbKnZ4nv.png?autoplay=1" width="400" height="500"/></a>
 
 
 # How to start
