@@ -1,7 +1,10 @@
 #!/usr/local/bin/ruby
+# ^ This assumes an installation of ruby 2.5.1
+# at /usr/local/bin, which may not be true for you.
+# But, you can always just run this manually via
+# `ruby strava.rb`.
 require 'json'
 require 'ostruct'
-require 'pry-nav'
 require 'requests'
 require 'tempfile'
 require_relative './workout_templates'
@@ -16,7 +19,7 @@ def alter_description(description, additions, subtractions)
     if stylized_weights == '' || stylized_weights.nil?
       stylized_weights = 'body weight'
     end
-    
+
     # This will look off for things I do 1 set or rep of,
     # but I'm ok with that - it makes eventually parsing
     # a dump of my data from Strava in the future easier.
